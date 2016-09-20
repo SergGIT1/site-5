@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Template</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+	<script src="js/slide_bar.js"></script> <!-- подключил скрипт, потому что в Chrome при загрузке стр автоматически прокручиваеться один слайд(с первого на второй который checked) -->
+</head>
+<body>
+
+		<header>
+			<h1>A1 velocity</h1>
+			<p><img src="images/tell.png" alt="icon_tell"> 1234567</p>
+		</header>
+
+<div class="wrapper">
+
+		<menu>
+			<li><a href="#" class="active">Home</a></li>
+			<li><a href="#">Producns</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+		</menu>
+
+		<div class="content">
+			<h2>Title goes here</h2>
+			<p class="above">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed mi sapien. Sed quis commodo lorem, sed sagittis lectus. Curabitur ullamcorper nisi sit amet dui dapibus varius. Donec eu orci sit amet tellus sodales mattis. Aenean posuere ante et consequat sagittis. Maecenas bibendum lacus ut congue tempus. Maecenas non ullamcorper dui, at cursus magna. Nam dictum fermentum metus, eget pretium purus aliquet in. Mauris sodales tellus non leo dapibus semper. Pellentesque auctor tortor felis, eget viverra lorem tincidunt ac. Nunc scelerisque ligula sed risus gravida, quis faucibus sapien consequat. Ut aliquet tincidunt elit, in adipiscing turpis facilisis non. 
+			</p>
+			
+
+<!-- НАЧАЛО СЛАИДЕРА -->
+<div id="slider">
+	<input type="radio" name="slider" id="slide1" >
+	<input type="radio" name="slider" id="slide2" checked="" >
+	<input type="radio" name="slider" id="slide3">
+
+
+	<div id="slides">
+		<div id="overflow">
+			<div class="inner">
+				<div class="page">
+					<img src="images/horse.png">
+				</div>
+				<div class="page">
+					<img src="images/doe.png">
+				</div>
+				
+				<div class="page">
+					<img src="images/eagle.png" >
+				</div>
+
+			</div> <!--inner-->
+		</div> <!--overflow-->
+	</div> <!--slides-->
+	
+
+	<div id="active">
+		<label for="slide1"></label>
+		<label for="slide2"></label>
+		<label for="slide3"></label>
+	</div>
+</div>
+<!-- КОНЕЦ СЛАИДЕРА -->
+
+
+			<article>
+				<h3>Popular Products</h3>
+				<div class="article">
+					<h4>Product title</h4>
+					<p>
+						Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor  Lorem ipsum dolor sit amet Lorem ipsum dolor sit Lorem ipsum dolor sit amet
+					</p>
+					<a href="#" class="active">more</a>
+				</div>
+				<div class="article">
+					<h4>Product title</h4>
+					<p>
+						Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor  Lorem ipsum dolor sit amet Lorem ipsum dolor sit Lorem ipsum dolor sit amet
+					</p>
+					<a href="#">more</a>
+				</div>
+				<div class="article">
+					<h4>Product title</h4>
+					<p>
+						Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor  Lorem ipsum dolor sit amet Lorem ipsum dolor sit Lorem ipsum dolor sit amet
+					</p>
+					<a href="#">more</a>
+				</div>
+			</article>
+		</div>
+
+		<section>
+			<h3>Lastest News</h3>
+			<p>
+				<img src="images/square.png" alt="img1">
+				<span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+			</p>
+			<p>	
+				<img src="images/square.png" alt=""img2">
+				<span>Sed sed mi sapien. Sed quis commodo lorem, sed sagittis lectus. Curabitur ullamcorper nisi sit amet dui dapibus varius.</span>
+			</p>
+			<p>
+				<img src="images/square.png" alt="img3">
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+			</p>
+			<p>
+				<img src="images/square.png" alt="img4">
+				<span>Lorem ipsum dolor sid amet lortm ipsum</span>
+			</p><div class"clear"></div>
+		</section>
+		
+
+	</div>
+
+	<footer>
+		<p>© copyright 2014, my site</p>
+		<ul>
+			<li><a href="#">contact</a></li>
+			<li><a href="#">site map</a></li>
+			<li><a href="#">terms&conditions</a></li>
+		</ul>
+	</footer>
+
+</body>
+</html>
